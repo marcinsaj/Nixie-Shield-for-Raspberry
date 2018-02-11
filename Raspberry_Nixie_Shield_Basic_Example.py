@@ -13,17 +13,17 @@ GPIO.setmode(GPIO.BOARD)    # Declare the type of GPIO numbering system
 GPIO.setwarnings(False)     # Disable warnings
 
 # Pin Definitons / Nixie tube digit address:
-EN = 29     # On/Off Nixie tube
+EN = 29                     # On/Off Nixie tube
 A = 37      
 B = 33
 C = 31
 D = 35
 
-GPIO.setup(EN,GPIO.OUT)     # Setup up a channel EN as an output
-GPIO.setup(A,GPIO.OUT)      # Setup up a channel A as an output
-GPIO.setup(B,GPIO.OUT)      # Setup up a channel B as an output
-GPIO.setup(C,GPIO.OUT)      # Setup up a channel C as an output
-GPIO.setup(D,GPIO.OUT)      # Setup up a channel D as an output
+GPIO.setup(EN,GPIO.OUT)     # Set up a channel EN as an output
+GPIO.setup(A,GPIO.OUT)      # Set up a channel A as an output
+GPIO.setup(B,GPIO.OUT)      # Set up a channel B as an output
+GPIO.setup(C,GPIO.OUT)      # Set up a channel C as an output
+GPIO.setup(D,GPIO.OUT)      # Set up a channel D as an output
 
 GPIO.output(EN,GPIO.LOW)    # Turn on the Nixie Tube
 
