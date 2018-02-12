@@ -1,6 +1,7 @@
 '''
-Raspberry Nixie Shield Python Basic Example 
-This example shows how to control a nixie tube with a Raspberry Pi using Nixie Shield
+Raspberry Nixie Shield Python Basic Example
+The Nixie Shield is compatible with Raspberry Pi: 1B+, 2B, 3B, ZERO, ZERO W.
+This example shows how to control any nixie tube with a Raspberry Pi using Nixie Shield
 Nixie Shield uses five digital outputs to drive nixie tube. 
 Pin 29 as on/off (EN) line, 31, 33, 35, 37 as an address (A, B, C, D) of nixie tube digit/cathode.
 This example code is in the public domain.
