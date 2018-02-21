@@ -13,7 +13,7 @@ import RPi.GPIO as GPIO     # Import RPi.GPIO module as just GPIO
 GPIO.setmode(GPIO.BOARD)    # Declare the type of GPIO numbering system
 GPIO.setwarnings(False)     # Disable warnings
 
-# Pin Definitons / Nixie tube digit address:
+# Pin definitions / Nixie tube digit address:
 EN = 29                     # On/Off Nixie tube
 A = 37      
 B = 33
