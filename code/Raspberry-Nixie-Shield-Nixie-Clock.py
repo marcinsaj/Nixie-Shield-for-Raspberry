@@ -52,7 +52,7 @@ while True:
         GPIO.output(EN,GPIO.HIGH) # Turn on the Nixie tube
         
         if d == 1:                
-            time.sleep(1)         # After second digit wait longer  
+            time.sleep(1)         # Wait longer between displaying hours and minutes
         else:
             time.sleep(0.500)        
         
