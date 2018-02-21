@@ -59,4 +59,3 @@ while True:
     time.sleep(1.500)             # Wait and repeate
         
 GPIO.cleanup()
-
