@@ -38,7 +38,6 @@ digit = [(0, 0, 0, 0), # '0'
 GPIO.setup(EN,GPIO.OUT, initial=0) 
 GPIO.setup(address, GPIO.OUT, initial=0)
 
-
 while True:
     # Get current local time
     nixietime = time.strftime("%H%M")   
