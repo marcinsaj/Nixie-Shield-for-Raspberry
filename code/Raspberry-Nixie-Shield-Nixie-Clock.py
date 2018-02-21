@@ -48,7 +48,7 @@ while True:
         GPIO.output(address, digit[int(nixietime[d])])
         GPIO.output(EN,GPIO.LOW)  # Turn on the Nixie tube
         time.sleep(0.500)
-        GPIO.output(EN,GPIO.HIGH) # Turn on the Nixie tube
+        GPIO.output(EN,GPIO.HIGH) # Turn off the Nixie tube
         
         if d == 1:                
             time.sleep(1)         # Wait longer between displaying hours and minutes
